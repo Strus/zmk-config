@@ -13,6 +13,10 @@
 #define RAISE   2
 #define MULTI   3
 
+&lt {
+ quick-tap-ms = <200>;
+};
+
 / {
     behaviors {
         esct: esc_tilde {
@@ -23,10 +27,6 @@
             keep-mods = <(MOD_RSFT)>;
         };
     };
-
-    &lt {
-     quick-tap-ms = <200>;
-    }
 
     keymap {
         compatible = "zmk,keymap";
