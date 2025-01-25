@@ -32,7 +32,7 @@
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep_mods = <(MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
         };
     };
 
