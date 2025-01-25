@@ -14,18 +14,6 @@
 #define MULTI   3
 
 / {
-    macros {
-        forty_two: forty_two {
-            label = "ZM_forty_two";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp N4>
-                , <&macro_press &kp N2>
-                ;
-        };
-    };
-
     behaviors {
         esct: esc_tilde {
             compatible = "zmk,behavior-mod-morph";
@@ -34,6 +22,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
         };
+
+        &lt {
+         quick-tap-ms = <200>;
+        }
     };
 
     keymap {
