@@ -44,7 +44,7 @@
                 &esct        &kp Q      &kp W     &kp E     &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O     &kp P      &kp SQT
                 &mt LCTL TAB      &kp A      &kp S     &kp D     &kp F      &kp G          &kp C_MUTE        &kp H      &kp J      &kp K      &kp L     &kp SEMI   &kp MINUS
                 &mt LSHIFT BSLH   &kp Z      &kp X     &kp C     &kp V      &kp B                            &kp N      &kp M      &kp COMMA  &kp DOT   &kp SLASH  &mt RSHIFT KP_EQUAL
-                                                  &mo MULTI  &kp GUI  &mt LOWER SPACE  &kp RET   &mt RAISE BSPC  &kp RSHIFT  &kp RALT  &mo MULTI
+                                                  &mo MULTI  &kp GUI  &lt LOWER SPACE  &kp RET   &lt RAISE BSPC  &kp RSHIFT  &kp RALT  &mo MULTI
                 >;
         };
         lower {
