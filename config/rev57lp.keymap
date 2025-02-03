@@ -51,9 +51,9 @@
         raise {
             bindings = <
                 &trans  &trans  &trans    &trans    &trans   &trans                         &trans  &trans    &trans    &trans    &trans  &trans
-                &trans  &trans  &trans    &trans    &trans   &trans                         &trans  &trans    &trans    &trans    &trans  &trans
-                &trans  &trans  &kp RBRC  &kp RBKT  &kp RPAR &trans             &trans      &trans  &kp LPAR  &kp LBKT  &kp LBRC  &trans  &trans
-                &trans  &trans  &trans    &trans    &trans   &trans                         &trans  &kp RBRC  &kp RBKT  &kp RPAR  &trans  &trans
+                &trans  &trans  &trans    &trans    &trans   &kp LBKT                       &kp RBKT  &kp LBRC  &kp RBRC  &trans    &trans  &trans
+                &trans  &trans  &kp LBRC  &kp LBKT  &kp RBKT &kp LPAR             &trans    &kp RPAR  &kp LPAR  &kp RPAR  &trans  &trans  &trans
+                &trans  &trans  &kp RBRC  &kp RBKT  &kp RPAR &kp LBRC                       &kp RBRC  &kp LBKT  &kp RBKT  &trans  &trans  &trans
                                         &trans  &trans  &trans  &trans               &trans &trans  &trans  &trans
                 >;
         };
@@ -61,7 +61,7 @@
             bindings = <
                 &bt BT_CLR  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3 &trans  &trans                  &trans  &trans        &trans        &trans  &trans  &trans
                 &trans      &trans        &trans        &trans       &trans  &trans                  &trans  &trans        &trans        &trans  &trans  &trans
-                &trans      &trans        &trans        &trans       &trans  &trans    &kp C_PLAY    &trans  &kp C_VOL_UP  &kp C_VOL_DN  &trans  &trans  &trans
+                &trans      &trans        &trans        &trans       &trans  &trans    &kp C_PLAY    &trans  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &trans
                 &trans      &trans        &trans        &trans       &trans  &trans                  &trans  &trans        &trans        &trans  &trans  &trans
                                                             &trans  &trans  &trans  &trans    &trans &trans  &trans  &trans
                 >;
